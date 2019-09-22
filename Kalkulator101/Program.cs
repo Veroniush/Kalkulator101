@@ -14,16 +14,18 @@ namespace Kalkulator101
             {
                 
                 Console.WriteLine("1. Dodawanie");
-                
+                Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. Mnożenie");
+                Console.WriteLine("4. Dzielenie");
+                Console.WriteLine("0. Exit");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("4. Exit");
-                Console.WriteLine("3. Coś innego");
                 
+                              
                 if (menuOption == 0)
                 {
                     break;
                 }
-                Console.WriteLine("2. Odejmowanie");
+                
             }
 
         }
